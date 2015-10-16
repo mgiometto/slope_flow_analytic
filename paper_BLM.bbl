@@ -1,0 +1,154 @@
+\begin{thebibliography}{26}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{DOI~\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Chu(1987)}]{Chu1987}
+Chu PC (1987) {An instability theory of ice-air interaction for the formation
+  of ice edge bands}. Journal of Geophysical Research 92(7):6966,
+  \doi{10.1029/JC092iC07p06966}
+
+\bibitem[{Egger(1985)}]{Egger1985}
+Egger J (1985) {Slope Winds and the Axisymmetric Circulation over Antarctica}.
+  Journal of the Atmospheric Sciences 42:1859--1867,
+  \doi{10.1175/1520-0469(1985)042<1859:SWATAC>2.0.CO;2}
+
+\bibitem[{Fedorovich and Shapiro(2009{\natexlab{a}})}]{Fedorovich2009d}
+Fedorovich E, Shapiro A (2009{\natexlab{a}}) {Structure of numerically
+  simulated katabatic and anabatic flows along steep slopes}. Acta Geophysica
+  57(4):981--1010, \doi{10.2478/s11600-009-0027-4},
+  \urlprefix\url{http://www.springerlink.com/index/10.2478/s11600-009-0027-4}
+
+\bibitem[{Fedorovich and Shapiro(2009{\natexlab{b}})}]{Fedorovich2009}
+Fedorovich E, Shapiro A (2009{\natexlab{b}}) {Turbulent natural convection
+  along a vertical plate immersed in a stably stratified fluid}. Journal of
+  Fluid Mechanics 636:41, \doi{10.1017/S0022112009007757}
+
+\bibitem[{Grisogono and Oerlemans(2001)}]{grisogono2001katabatic}
+Grisogono B, Oerlemans J (2001) {Katabatic Flow: Analytic Solution for
+  Gradually Varying Eddy Diffusivities}. Journal of the Atmospheric Sciences
+  58(21):3349--3354,
+  \doi{http://dx.doi.org/10.1175/1520-0469(2001)058<3349:KFASFG>2.0.CO;2}
+
+\bibitem[{Grisogono and Oerlemans(2002)}]{Grisogono2002}
+Grisogono B, Oerlemans J (2002) {Justifying the WKB approximation in pure
+  katabatic flows}. Tellus, A 54(5):453--462,
+  \doi{10.1034/j.1600-0870.2002.201399.x}
+
+\bibitem[{Gutman(1983)}]{gutman_1983}
+Gutman LN (1983) {On the theory of the katabatic slope wind}. Tellus, A
+  35(3):332--335, \doi{10.3402/tellusa.v35i3.11434}
+
+\bibitem[{Gutman and Malbakhov(1964)}]{Gutman1964}
+Gutman LN, Malbakhov VM (1964) {On the Theory of the Katabatic Winds of
+  Antarctica}. University of Melbourne, Meteorology Department
+
+\bibitem[{Lykosov and Gutman(1972)}]{Lykosov_1972}
+Lykosov VN, Gutman LN (1972) {Turbulent boundary layer above a sloping
+  inderlying surface}. Proceedings of the USSR Academy of Sciences 8:799--809,
+  \urlprefix\url{papers2://publication/uuid/B2EC0692-4251-4224-8185-A1AE8D9B00E9}
+
+\bibitem[{Mahrt(1998)}]{Mahrt1998}
+Mahrt L (1998) {Stratified Atmospheric Boundary Layers and Breakdown of
+  Models}. In: Theoretical and Computational Fluid Dynamics, vol~11, pp
+  263--279, \doi{10.1007/s001620050093},
+  \urlprefix\url{http://link.springer.com/10.1007/s001620050093}
+
+\bibitem[{Monti et~al.(2002)Monti, Fernando, Princevac, Chan, Kowalewski, and
+  Pardyjak}]{Monti2002}
+Monti P, Fernando HJS, Princevac M, Chan WC, Kowalewski TA, Pardyjak ER (2002)
+  {Observations of Flow and Turbulence in the Nocturnal Boundary Layer over a
+  Slope}. Journal of the Atmospheric Sciences 59:2513--2534,
+  \doi{10.1175/1520-0469(2002)059<2513:OOFATI>2.0.CO;2}
+
+\bibitem[{Morse and Feshbach(1953)}]{Morse1954a}
+Morse PM, Feshbach H (1953) {Methods of Theoretical Physics}. McGraw-Hill
+
+\bibitem[{Nadeau et~al.(2013)Nadeau, Pardyjak, Higgins, and
+  Parlange}]{Nadeau2012}
+Nadeau DF, Pardyjak ER, Higgins CW, Parlange MB (2013) {Similarity Scaling Over
+  a Steep Alpine Slope}. Boundary-Layer Meteorology 147(3):401--419,
+  \doi{10.1007/s10546-012-9787-5},
+  \urlprefix\url{http://link.springer.com/10.1007/s10546-012-9787-5}
+
+\bibitem[{Nappo and Shankar(1987)}]{NAPPO1987}
+Nappo CJ, Shankar RK (1987) {A model study of pure katabatic flows}. Tellus A
+  39(1):61--71, \doi{10.3402/tellusa.v39i1.11740},
+  \urlprefix\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1600-0870.1987.tb00289.x/abstract}
+
+\bibitem[{Nylen et~al.(2004)Nylen, {Andrew G. F.}, and Doran}]{Nylen2004b}
+Nylen TH, {Andrew G F}, Doran PT (2004) {Climatology of katabatic winds in the
+  McMurdo dry valleys, southern Victoria Land, Antarctica}. Journal of
+  Geophysical Research 109:1--9, \doi{10.1029/2003JD003937}
+
+\bibitem[{O'Brien(1970)}]{O'Brien1970}
+O'Brien JJ (1970) {A Note on the Vertical Structure of the Eddy Exchange
+  Coefficient in the Planetary Boundary Layer}. Journal of the Atmospheric
+  Sciences 27:1213--1215,
+  \doi{10.1175/1520-0469(1970)027<1213:ANOTVS>2.0.CO;2},
+  \urlprefix\url{http://dx.doi.org/10.1175/1520-0469(1970)027<1213:ANOTVS>2.0.CO;2}
+
+\bibitem[{Oerlemans(1998)}]{Oerlemans1998}
+Oerlemans J (1998) {The atmospheric boundary layer over melting glaciers}. In:
+  Clear and Cloudy Boundary Layers, vol~48, Royal Netherlands Academy of Arts
+  and Sciences, pp 129--153,
+  \urlprefix\url{http://igitur-archive.library.uu.nl/phys/2007-0716-203217/oerlemans\_07\_atmosphericboundarylayer.pdf}
+
+\bibitem[{Oerlemans and Vugts(1993)}]{Oerlemans1993}
+Oerlemans J, Vugts HF (1993) {A Meteorological Experiment in the Melting Zone
+  of the Greenland Ice Sheet}. Bulletin of the American Meteorological Society
+  74(3):355--365, \doi{10.1175/1520-0477(1993)074<0355:AMEITM>2.0.CO;2}
+
+\bibitem[{Oldroyd et~al.(2014)Oldroyd, Katul, Pardyjak, and
+  Parlange}]{Oldroyd2014}
+Oldroyd HJ, Katul G, Pardyjak ER, Parlange MB (2014) {Momentum balance of
+  katabatic flow on steep slopes covered with short vegetation}. Geophysical
+  Research Letters 41:4761--4768, \doi{10.1002/2014GL060313}
+
+\bibitem[{Parish(1992)}]{Parish1992}
+Parish TR (1992) {On the Role of Antarctic Katabatic Winds in Forcing
+  Large-Scale Tropospheric Motions}. Journal of the Atmospheric Sciences
+  49:1374--1385, \doi{10.1175/1520-0469(1992)049<1374:OTROAK>2.0.CO;2}
+
+\bibitem[{Parish and Bromwich(1998)}]{Parish1998}
+Parish TR, Bromwich DH (1998) {A Case Study of Antarctic Katabatic Wind
+  Interaction with Large-Scale Forcing}. Monthly Weather Review 126:199--209,
+  \doi{10.1175/1520-0493(1998)126<0199:ACSOAK>2.0.CO;2}
+
+\bibitem[{Prandtl(1942)}]{Prandtl}
+Prandtl L (1942) {F\"{u}hrer durch die Str\"{o}mungslehre}. Vieweg \& Sohn,
+  Braunschweig
+
+\bibitem[{Shapiro and Fedorovich(2004{\natexlab{a}})}]{Shapiro2004a}
+Shapiro A, Fedorovich E (2004{\natexlab{a}}) {Prandtl number dependence of
+  unsteady natural convection along a vertical plate in a stably stratified
+  fluid}. International Journal of Heat and Mass Transfer 47(22):4911--4927,
+  \doi{10.1016/j.ijheatmasstransfer.2004.04.035},
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0017931004002157}
+
+\bibitem[{Shapiro and Fedorovich(2004{\natexlab{b}})}]{Shapiro2004}
+Shapiro A, Fedorovich E (2004{\natexlab{b}}) {Unsteady convectively driven flow
+  along a vertical plate immersed in a stably stratified fluid}. Journal of
+  Fluid Mechanics 498:333--352, \doi{10.1017/S0022112003006803},
+  \urlprefix\url{http://www.journals.cambridge.org/abstract\_S0022112003006803}
+
+\bibitem[{Shapiro and Fedorovich(2007)}]{Shapiro2007}
+Shapiro A, Fedorovich E (2007) {Katabatic flow along a differentially cooled
+  sloping surface}. Journal of Fluid Mechanics 571:149,
+  \doi{10.1017/S0022112006003302},
+  \urlprefix\url{http://www.journals.cambridge.org/abstract\_S0022112006003302}
+
+\bibitem[{Spalart et~al.(2011)Spalart, Strelets, and
+  Garbaruk}]{Burkholder2011a}
+Spalart P, Strelets M, Garbaruk A (2011) {Quality and Reliability of Large-Eddy
+  Simulations II}. In: Evaluating Subgrid-ScaleModels for Large-Eddy Simulation
+  of Turbulent Katabatic Flow, vol~16, pp 253--267,
+  \doi{10.1007/978-94-007-0231-8},
+  \urlprefix\url{http://www.springerlink.com/index/10.1007/978-94-007-0231-8}
+
+\end{thebibliography}
