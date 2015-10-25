@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  16 AUG 2015 20:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  25 OCT 2015 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -454,7 +454,11 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(./paper_BLM.aux)
+(./paper_BLM.aux
+
+LaTeX Warning: Label `ode' multiply defined.
+
+)
 \openout1 = `paper_BLM.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -473,8 +477,7 @@ LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
-
-(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count143
 \scratchdimen=\dimen175
@@ -531,27 +534,22 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 120.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-
-Overfull \hbox (2.72278pt too wide) in paragraph at lines 206--209
-[]\OT1/cmr/m/n/10 We as-sume eddy dif-fu-siv-i-ties in line with the clas-sic O
-'Brien's type ([]O'Brien[],
+ [3]
+Overfull \hbox (22.2264pt too wide) detected at line 239
+\OML/cmm/m/it/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) = \OML/c
+mm/m/it/10 \OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y\OT1/cmr/
+m/n/10 )[] []\OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^V; \OT1/cm
+r/m/n/10 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^V[]; \OT1/cmr/m/n/10 1 + \OM
+L/cmm/m/it/10 ^^V \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^V[]; \OT1/cmr/m/n/10 
+1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 ) + \OML/cmm/m/it/10 ^
+^L\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )[]
+ []\OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^V[]; \OT1/cmr/m/n/10
+ 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^V; \OT1/cmr/m/n/10 1 + \OML/cmm/m/it
+/10 ^^V[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^V; \OT1/cmr/m/n/10 1 \OMS/cms
+y/m/n/10 ^^@ \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;
  []
 
-[3]
-Overfull \hbox (53.7207pt too wide) detected at line 246
-\OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 z[]\OT1/cmr/m/n/10 ) = \OML
-/cmm/m/it/10 \OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 z[]\OT1/
-cmr/m/n/10 )[] []\OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^V; \OT
-1/cmr/m/n/10 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^V[]; \OT1/cmr/m/n/10 1 +
- \OML/cmm/m/it/10 ^^V \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^V[]; \OT1/cmr/m/n
-/10 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 z[]\OT1/cmr/m/n/10 ) + \OML/cmm/m/i
-t/10 ^^L\OT1/cmr/m/n/10 (1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 z[]\OT1/cmr/m/
-n/10 )[] []\OML/cmm/m/it/10 F[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 ^^V[]; \OT1/cm
-r/m/n/10 1 \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^V; \OT1/cmr/m/n/10 1 + \OML/
-cmm/m/it/10 ^^V[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 ^^V; \OT1/cmr/m/n/10 1 
-\OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 z[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;
- []
-
+[4]
 Package epstopdf Info: Source file: <./u-b_log.eps>
 (epstopdf)                    date: 2015-07-06 16:00:53
 (epstopdf)                    size: 2468227 bytes
@@ -560,13 +558,13 @@ Package epstopdf Info: Source file: <./u-b_log.eps>
 (epstopdf)                    size: 466734 bytes
 (epstopdf)             Command: <repstopdf --outfile=./u-b_log-eps-converted-to
 .pdf ./u-b_log.eps>
-(epstopdf)             \includegraphics on input line 283.
+(epstopdf)             \includegraphics on input line 322.
 Package epstopdf Info: Output file is already uptodate.
-<./u-b_log-eps-converted-to.pdf, id=166, 489.83pt x 455.7025pt>
+ <./u-b_log-eps-converted-to.pdf, id=187, 489.83pt x 455.7025pt>
 File: ./u-b_log-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./u-b_log-eps-converted-to.pdf>
-Package pdftex.def Info: ./u-b_log-eps-converted-to.pdf used on input line 283.
+Package pdftex.def Info: ./u-b_log-eps-converted-to.pdf used on input line 322.
 
 (pdftex.def)             Requested size: 199.16928pt x 185.2886pt.
 Package epstopdf Info: Source file: <./u-b_log_various_K.eps>
@@ -577,15 +575,15 @@ Package epstopdf Info: Source file: <./u-b_log_various_K.eps>
 (epstopdf)                    size: 326557 bytes
 (epstopdf)             Command: <repstopdf --outfile=./u-b_log_various_K-eps-co
 nverted-to.pdf ./u-b_log_various_K.eps>
-(epstopdf)             \includegraphics on input line 291.
+(epstopdf)             \includegraphics on input line 330.
 Package epstopdf Info: Output file is already uptodate.
 
-<./u-b_log_various_K-eps-converted-to.pdf, id=167, 489.83pt x 455.7025pt>
+<./u-b_log_various_K-eps-converted-to.pdf, id=188, 489.83pt x 455.7025pt>
 File: ./u-b_log_various_K-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./u-b_log_various_K-eps-converted-to.pdf>
 Package pdftex.def Info: ./u-b_log_various_K-eps-converted-to.pdf used on input
- line 291.
+ line 330.
 (pdftex.def)             Requested size: 199.16928pt x 185.2886pt.
 Package epstopdf Info: Source file: <./u_dim_alpha_N_b.eps>
 (epstopdf)                    date: 2015-08-16 16:59:29
@@ -595,87 +593,87 @@ Package epstopdf Info: Source file: <./u_dim_alpha_N_b.eps>
 (epstopdf)                    size: 742207 bytes
 (epstopdf)             Command: <repstopdf --outfile=./u_dim_alpha_N_b-eps-conv
 erted-to.pdf ./u_dim_alpha_N_b.eps>
-(epstopdf)             \includegraphics on input line 315.
+(epstopdf)             \includegraphics on input line 354.
 Package epstopdf Info: Output file is already uptodate.
 
-<./u_dim_alpha_N_b-eps-converted-to.pdf, id=174, 489.83pt x 455.7025pt>
+<./u_dim_alpha_N_b-eps-converted-to.pdf, id=195, 489.83pt x 455.7025pt>
 File: ./u_dim_alpha_N_b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./u_dim_alpha_N_b-eps-converted-to.pdf>
 Package pdftex.def Info: ./u_dim_alpha_N_b-eps-converted-to.pdf used on input l
-ine 315.
+ine 354.
 (pdftex.def)             Requested size: 199.16928pt x 185.2886pt.
- [4] [5 <./u-b_log-eps-converted-to.pdf> <./u-b_log_various_K-eps-converted-to.
+ [5] [6 <./u-b_log-eps-converted-to.pdf> <./u-b_log_various_K-eps-converted-to.
 pdf>]
 Underfull \vbox (badness 3503) has occurred while \output is active []
 
- [6]
-[7 <./u_dim_alpha_N_b-eps-converted-to.pdf>]
-Underfull \hbox (badness 5091) in paragraph at lines 421--424
+ [7]
+[8 <./u_dim_alpha_N_b-eps-converted-to.pdf>] (./paper_BLM.bbl
+Underfull \hbox (badness 5091) in paragraph at lines 59--62
 []\OT1/cmr/m/n/10 Lykosov VN, Gut-man LN (1972) Tur-bu-lent bound-ary layer abo
 ve
  []
 
 
-Underfull \hbox (badness 4832) in paragraph at lines 421--424
+Underfull \hbox (badness 4832) in paragraph at lines 59--62
 \OT1/cmr/m/n/10 a slop-ing in-der-ly-ing sur-face. Pro-ceed-ings of the USSR Ac
 ademy
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--424
+Underfull \hbox (badness 10000) in paragraph at lines 59--62
 \OT1/cmr/m/n/10 of Sci-ences 8:799--809, URL []$\OT1/cmtt/m/n/10 papers2 : / / 
 publication / uuid /
  []
 
-[8]
-Underfull \hbox (badness 3895) in paragraph at lines 449--452
+[9]
+Underfull \hbox (badness 3895) in paragraph at lines 87--90
 []\OT1/cmr/m/n/10 Nappo CJ, Shankar RK (1987) A model study of pure kata-batic
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 449--452
+Underfull \hbox (badness 4048) in paragraph at lines 87--90
 \OT1/cmr/m/n/10 flows. Tel-lus A 39(1):61--71, DOI $10 . 3402 / tellusa . v39i1
  . 11740$, URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--452
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 []$\OT1/cmtt/m/n/10 http : / / onlinelibrary . wiley . com / doi / 10 . 1111 / 
 j . 1600-[]0870 . 1987 .
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 466--470
+Underfull \hbox (badness 4872) in paragraph at lines 104--108
 []\OT1/cmr/m/n/10 Oerlemans J (1998) The at-mo-spheric bound-ary layer over mel
 t-ing
  []
 
 
-Underfull \hbox (badness 5105) in paragraph at lines 466--470
+Underfull \hbox (badness 5105) in paragraph at lines 104--108
 \OT1/cmr/m/n/10 glaciers. In: Clear and Cloudy Bound-ary Lay-ers, vol 48, Royal
 
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 466--470
+Underfull \hbox (badness 7667) in paragraph at lines 104--108
 \OT1/cmr/m/n/10 Nether-lands Academy of Arts and Sci-ences, pp 129--153, URL
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 466--470
+Underfull \hbox (badness 10000) in paragraph at lines 104--108
 []$\OT1/cmtt/m/n/10 http : / / igitur-[]archive . library . uu . nl / phys / 20
 07-[]0716-[]203217 /
  []
 
 
-Underfull \hbox (badness 1721) in paragraph at lines 510--514
+Underfull \hbox (badness 1721) in paragraph at lines 139--143
 []\OT1/cmr/m/n/10 Shapiro A, Fe-dorovich E (2007) Kata-batic flow along a dif-f
 er-en-tially
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 510--514
+Underfull \hbox (badness 1590) in paragraph at lines 139--143
 \OT1/cmr/m/n/10 1017 / S0022112006003302$, URL []$\OT1/cmtt/m/n/10 http : / / w
 ww . journals . cambridge . org /
  []
@@ -683,27 +681,44 @@ ww . journals . cambridge . org /
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 528.
+ [10]
+Underfull \hbox (badness 4872) in paragraph at lines 153--156
+[]\OT1/cmr/m/n/10 Stull RB (1988) An In-tro-duc-tion to Bound-ary Layer Me-te-o
+-rol-ogy,
+ []
 
-[10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 528.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
+\OT1/cmtt/m/n/10 google . com / books ? hl = en{&}lr = {&}id = BK8P9rl-[]CB4C{&
+}oi = fnd{&}pg =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--156
+\OT1/cmtt/m/n/10 PR11{&}dq = AN + INTRODUCTION + TO + BOUNDARY + LAYER + METEOR
+OLOGY{&}ots =
+ []
+
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 574.
+ [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 574.
  (./paper_BLM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 528.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 528.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 574.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 574.
 Package rerunfilecheck Info: File `paper_BLM.out' has not changed.
-(rerunfilecheck)             Checksum: B1C4926ADB11140B78B4557B6F778E55;243.
+(rerunfilecheck)             Checksum: 1BBBDB798109A4EA43C72F1368F5966E;304.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 528.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 574.
  ) 
 Here is how much of TeX's memory you used:
- 8603 strings out of 493315
- 124007 string characters out of 6137904
- 233071 words of memory out of 5000000
- 11857 multiletter control sequences out of 15000+600000
+ 8620 strings out of 493315
+ 124215 string characters out of 6137904
+ 232119 words of memory out of 5000000
+ 11862 multiletter control sequences out of 15000+600000
  13237 words of font info for 50 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  30i,12n,53p,761b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -729,10 +744,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on paper_BLM.pdf (10 pages, 1800563 bytes).
+Output written on paper_BLM.pdf (11 pages, 1814348 bytes).
 PDF statistics:
- 399 PDF objects out of 1000 (max. 8388607)
- 345 compressed objects within 4 object streams
- 58 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 429 PDF objects out of 1000 (max. 8388607)
+ 374 compressed objects within 4 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

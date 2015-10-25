@@ -1,4 +1,4 @@
-\begin{thebibliography}{26}
+\begin{thebibliography}{27}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{{#1}}
 \providecommand{\urlprefix}{URL }
@@ -7,6 +7,13 @@
   \providecommand{\doi}{DOI~\discretionary{}{}{}\begingroup
   \urlstyle{rm}\Url}\fi
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{Bender and Orszag(1999)}]{Bender1999}
+Bender CM, Orszag SA (1999) {Advanced Mathematical Methods for Scientists and
+  Engineers I}. Springer New York, New York, NY,
+  \doi{10.1007/978-1-4757-3069-2},
+  \urlprefix\url{http://eprints.ucl.ac.uk/70187/
+  http://link.springer.com/10.1007/978-1-4757-3069-2}
 
 \bibitem[{Chu(1987)}]{Chu1987}
 Chu PC (1987) {An instability theory of ice-air interaction for the formation
@@ -97,7 +104,7 @@ O'Brien JJ (1970) {A Note on the Vertical Structure of the Eddy Exchange
 Oerlemans J (1998) {The atmospheric boundary layer over melting glaciers}. In:
   Clear and Cloudy Boundary Layers, vol~48, Royal Netherlands Academy of Arts
   and Sciences, pp 129--153,
-  \urlprefix\url{http://igitur-archive.library.uu.nl/phys/2007-0716-203217/oerlemans\_07\_atmosphericboundarylayer.pdf}
+  \urlprefix\url{http://igitur-archive.library.uu.nl/phys/2007-0716-203217/oerlemans{\_}07{\_}atmosphericboundarylayer.pdf}
 
 \bibitem[{Oerlemans and Vugts(1993)}]{Oerlemans1993}
 Oerlemans J, Vugts HF (1993) {A Meteorological Experiment in the Melting Zone
@@ -120,28 +127,19 @@ Parish TR, Bromwich DH (1998) {A Case Study of Antarctic Katabatic Wind
   Interaction with Large-Scale Forcing}. Monthly Weather Review 126:199--209,
   \doi{10.1175/1520-0493(1998)126<0199:ACSOAK>2.0.CO;2}
 
+\bibitem[{Pielke(1984)}]{pielke1984mesoscale}
+Pielke RA (1984) {Mesoscale numerical modeling}. Advances in Geophysics
+  23:185--344
+
 \bibitem[{Prandtl(1942)}]{Prandtl}
-Prandtl L (1942) {F\"{u}hrer durch die Str\"{o}mungslehre}. Vieweg \& Sohn,
-  Braunschweig
-
-\bibitem[{Shapiro and Fedorovich(2004{\natexlab{a}})}]{Shapiro2004a}
-Shapiro A, Fedorovich E (2004{\natexlab{a}}) {Prandtl number dependence of
-  unsteady natural convection along a vertical plate in a stably stratified
-  fluid}. International Journal of Heat and Mass Transfer 47(22):4911--4927,
-  \doi{10.1016/j.ijheatmasstransfer.2004.04.035},
-  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0017931004002157}
-
-\bibitem[{Shapiro and Fedorovich(2004{\natexlab{b}})}]{Shapiro2004}
-Shapiro A, Fedorovich E (2004{\natexlab{b}}) {Unsteady convectively driven flow
-  along a vertical plate immersed in a stably stratified fluid}. Journal of
-  Fluid Mechanics 498:333--352, \doi{10.1017/S0022112003006803},
-  \urlprefix\url{http://www.journals.cambridge.org/abstract\_S0022112003006803}
+Prandtl L (1942) {F{\"{u}}hrer durch die Str{\"{o}}mungslehre}. Vieweg {\&}
+  Sohn, Braunschweig
 
 \bibitem[{Shapiro and Fedorovich(2007)}]{Shapiro2007}
 Shapiro A, Fedorovich E (2007) {Katabatic flow along a differentially cooled
   sloping surface}. Journal of Fluid Mechanics 571:149,
   \doi{10.1017/S0022112006003302},
-  \urlprefix\url{http://www.journals.cambridge.org/abstract\_S0022112006003302}
+  \urlprefix\url{http://www.journals.cambridge.org/abstract{\_}S0022112006003302}
 
 \bibitem[{Spalart et~al.(2011)Spalart, Strelets, and
   Garbaruk}]{Burkholder2011a}
@@ -150,5 +148,10 @@ Spalart P, Strelets M, Garbaruk A (2011) {Quality and Reliability of Large-Eddy
   of Turbulent Katabatic Flow, vol~16, pp 253--267,
   \doi{10.1007/978-94-007-0231-8},
   \urlprefix\url{http://www.springerlink.com/index/10.1007/978-94-007-0231-8}
+
+\bibitem[{Stull(1988)}]{Stull1988}
+Stull RB (1988) {An Introduction to Boundary Layer Meteorology}, vol~13.
+  Springer, \doi{10.1007/978-94-009-3027-8},
+  \urlprefix\url{http://books.google.com/books?hl=en{\&}lr={\&}id=BK8P9rl-CB4C{\&}oi=fnd{\&}pg=PR11{\&}dq=AN+INTRODUCTION+TO+BOUNDARY+LAYER+METEOROLOGY{\&}ots=ocdv6uHfgM{\&}sig={\_}vkNpJ4pNjW906TJ849rGw8vOCM}
 
 \end{thebibliography}
