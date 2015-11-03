@@ -148,7 +148,7 @@ The Prandtl model approximates the atmosphere in a Boussinesq sense and describe
 \end{linenomath*}
 %
 where $z$ denotes the normal-to-slope coordinate directions, $u$ is the downslope velocity, $b$ is buoyancy, $N$ is the buoyancy frequency characterizing the system (related to the background stratification), $\alpha$ is the slope angle and $K_M$ and $K_H$ denote the eddy viscosity and diffusivity (an eddy viscosity/diffusivity model has been used to parametrize turbulent fluxes of momentum and buoyancy).
-Equations are defined in $z \in \ [0,\infty)$ with boundary conditions $u(0)=0$, $u(z \rightarrow \infty) = 0$, $b(0)=b_s$ and $b(z \rightarrow \infty) = 0$ ($b_s > 0$ for upslope flows, whereas $b_s<0$ for downslope flows). 
+Equations are defined in $z \in \ [z_0,\infty)$ with boundary conditions $u(z_0)=0$, $u(z \rightarrow \infty) = 0$, $b(z_0)=b_s$ and $b(z \rightarrow \infty) = 0$ ($b_s > 0$ for upslope flows, whereas $b_s<0$ for downslope flows). 
 
 The flow is assumed to be invariant in the downslope direction and the model can be used to determine its vertical structure.
 Eqs. \ref{eqn1u} and \ref{eqn1b} state that downslope (upslope) convection of cold (warm) air is balanced by momentum flux divergence, and that along-slope generated buoyancy is balanced by buoyancy flux divergence; thus the model is applicable away from ridges and valleys, so that advection terms are negligible \citep{NAPPO1987}.
@@ -166,22 +166,22 @@ The new solution, expressed as a combination of Gaussian hypergeometric function
 %
 We consider the one-dimensional Prandtl model (Eq. \ref{eqn1u} and \ref{eqn1b}). 
 
-Assuming eddy diffusivities in line with the classic O'Brien's type \citep{O'Brien1970}, viz. $K(z) = A (z + \epsilon)(z-\zeta)^2$, where $\epsilon>0$ and $\zeta>H$ are parameters that we introduce in order to shift the zeroes of $K$ outside the interval of integration $[0,H]$, assuming $Pr=1$ (i.e. $K_M=K_H=K$) and assigning a length, velocity and buoyancy scale $L= (N \sin{\alpha})/ A$, $U=b_s N^{-1}$ and $B=b_s$ respectively, Eqs. \ref{eqn1u} and \ref{eqn1b} reduce to:
+Assuming eddy diffusivities in line with the classic O'Brien's type \citep{O'Brien1970}, viz. $K(z) = A z(z-\zeta)^2$, where $\zeta>H$, $Pr=1$ (i.e. $K_M=K_H=K$) and assigning a length, velocity and buoyancy scale $L= (N \sin{\alpha})/ A$, $U=b_s N^{-1}$ and $B=b_s$ respectively, Eqs. \ref{eqn1u} and \ref{eqn1b} reduce to:
 %
 \begin{linenomath*}
 \begin{subequations}
 \label{ode}
 \begin{align}
-	\overline{u} & = d( \overline{K} d\overline{b}/d\overline{z} )/d\overline{z}, && \mathrm{in}  \ [0,\overline{H}]
+	\overline{u} & = d( \overline{K} d\overline{b}/d\overline{z} )/d\overline{z}, && \mathrm{in}  \ [z_0,\overline{H}]
 	\label{eqn1u_norm} \\
 	%
-	\overline{b} & = -d( \overline{K} d\overline{u}/d\overline{z} )/d\overline{z}, &&\mathrm{in}  \ [0,\overline{H}]
+	\overline{b} & = -d( \overline{K} d\overline{u}/d\overline{z} )/d\overline{z}, &&\mathrm{in}  \ [z_0,\overline{H}]
 	\label{eqn1b_norm}
 \end{align}
 \end{subequations}
 \end{linenomath*}
 %
-where $\overline{K} = (\overline{z} + \overline{\epsilon})(\overline{z}-\overline{\zeta})^2$ is the normalized eddy viscosity/diffusivity, $\overline{z}=zL^{-1}$, $\overline{u} = uU^{-1}$, $\overline{b}=b B^{-1}$, with boundary conditions $\overline{u}(0)=0$, $\overline{u}(\overline{H}) = 0$, $\overline{b}(0)=\pm 1$ and $\overline{b}(\overline{H}) = 0$.
+where $\overline{K} = \overline{z}(\overline{z}-\overline{\zeta})^2$ is the normalized eddy viscosity/diffusivity, $\overline{z}=zL^{-1}$, $\overline{u} = uU^{-1}$, $\overline{b}=b B^{-1}$, with boundary conditions $\overline{u}(z_0)=0$, $\overline{u}(\overline{H}) = 0$, $\overline{b}(z_0)=\pm 1$ and $\overline{b}(\overline{H}) = 0$.
 Overbars $\overline{(\cdot)}$ will be omitted hereafter.
 %
 Further, we introduce the following variable
@@ -198,12 +198,12 @@ and upon substitution of Eqs. \ref{eqn1u_norm} and \ref{eqn1b_norm} into Eq. \re
 \begin{linenomath*}
 \label{ode_norm}
 \begin{equation}
-	i \cdot f =  d(  K df/dz )/dz \hspace{1cm} \mathrm{in}  \ [0,H],
+	i \cdot f =  d(  K df/dz )/dz \hspace{1cm} \mathrm{in}  \ [z_0,H],
 	\label{ode}
 \end{equation}
 \end{linenomath*}
 %
-with boundary conditions $f(0)=\pm 1$ and $f(H) = 0$.
+with boundary conditions $f(z_0)=\pm 1$ and $f(H) = 0$.
 This technique for the decoupling of the system of Eqs. \ref{eqn1u_norm} and \ref{eqn1b_norm} is based on an ad hoc diagonalization.
 %
 To solve Eq. \ref{ode} we first rewrite the equation in canonical form:
@@ -215,7 +215,7 @@ To solve Eq. \ref{ode} we first rewrite the equation in canonical form:
 \end{equation}
 \end{linenomath*}
 %
-where $(\cdot)' = \frac{\partial (\cdot)}{\partial z}$, $P(z)=(K)'/K$ and $Q(z)=1/(i K)$. Second, it is an easy computation to show that rewriting Eq. \ref{can_form} for $y = \frac{z + \epsilon}{H + \epsilon + \zeta}
+where $(\cdot)' = \frac{\partial (\cdot)}{\partial z}$, $P(z)=(K)'/K$ and $Q(z)=1/(i K)$. Second, it is an easy computation to show that rewriting Eq. \ref{can_form} for $y = \frac{z }{\zeta}
 $ results in
 %if $f$ solves Eq. \ref{can_form} then $g(z^+):=f( (H^++2 \epsilon^+) z^+- \epsilon^+)$ solves:
 %
@@ -226,7 +226,7 @@ $ results in
 \end{equation}
 \end{linenomath*}
 %
-where $(\cdot)' = \frac{\partial (\cdot)}{\partial y}$, $\widetilde{P}(y)=\gamma'(y)/\gamma(y)$ and $\widetilde{Q}(y)=1/( i \cdot (H+\epsilon+\zeta) \gamma(y))$, with $\gamma(y)=y(y-1)^2$.
+where $(\cdot)' = \frac{\partial (\cdot)}{\partial y}$, $\widetilde{P}(y)=\gamma'(y)/\gamma(y)$ and $\widetilde{Q}(y)=1/( i \cdot \zeta \gamma(y))$, with $\gamma(y)=y(y-1)^2$.
 Eq. \ref{can_form_sec} is a second order ODE with three regular singular points at $y = 0,1$ and $\infty$, as in \citet{Morse1954a}. 
 This special case is known as the \emph{equation of Papperitz} and its general solution is:
 %
@@ -244,7 +244,7 @@ where $\ _2F_1$ are \emph{Gaussian hypergeometric functions} and $\mu$, $\mu'$ a
 %
 \begin{linenomath*}
 \begin{equation*}
-	x^2+x+1/( i (H+ \epsilon + \zeta))=0.
+	x^2+x+1/( i \zeta)=0.
 \end{equation*}
 \end{linenomath*}
 %
@@ -276,7 +276,7 @@ Upon back-substitution of the independent variable and specification of the inte
 \section{Specification of of K(z)}
 
 The model assumes $Pr = 1$, i.e. $K_M = K_H = K$, although in reality they are slightly different. This assumption is justified based on the degree of accuracy of the considered study. 
-Further, as stated in the preceeding section, we assume eddy diffusivities in line with the classic O'Brien's type \citep{O'Brien1970}, viz. $K = A(z + \epsilon)(z-\zeta)^2$, where $\epsilon>0$ can be tuned to provide the desired value of eddy viscosity / diffusivity at the wall, whereas $\zeta > H$ controls both shape and magnitude of $K$.
+Further, as stated in the preceeding section, we assume eddy diffusivities in line with the classic O'Brien's type \citep{O'Brien1970}, viz. $K = Az(z-\zeta)^2$, where $A$ is a prefactor and $\zeta > H$ controls both shape and magnitude of $K$.
 The O'Brien model has often been used in studies of stable boundary layers, see for instance \citet{pielke1984mesoscale} and \citet{Stull1988}, and a generalized O'Brien model was also recently adopted in \citet{grisogono2001katabatic} to study slope flows.
 The properties of $K(z)$ in slope flows were thorougly justified in \citet{Grisogono2002};  we here recall the main criteria that $K(z)$ should honor:
 %
@@ -289,38 +289,44 @@ The properties of $K(z)$ in slope flows were thorougly justified in \citet{Griso
 %
 where $z_j$ is the height of the LLJ, and $z_{inv}$ is the height of the surface inversion layer (in general we have $z_{inv} > z_j$).
 %
-In addition, assuming Monin-Obukhov similarity theory to hold for the near wall regions (which is itself a subject of great debate), one would ideally specify $K(z)$ in order to satisfy:
+In addition, assuming Monin-Obukhov similarity theory to hold for the near wall regions (which is itself a subject of debate), one would ideally specify $K(z)$ in order to satisfy:
 %
 \begin{linenomath*}
 \begin{subequations}
 \begin{align}
-   K(z) & = \kappa u_* z/[1+\Phi(z)] & z \in [z_0,z_s], \label{MOST1}\\
+   K(z) & = \kappa u_* z & z \in [z_0,z_s], \label{MOST1}\\
    K(z) & = f(u_*,z) \ | \ d^2f/dz^2 < 0 & z \in (z_s,H], \label{MOST2}
 \end{align}
 \end{subequations}
 \end{linenomath*}
+%%
+%\begin{linenomath*}
+%\begin{subequations}
+%\begin{align}
+%   K(z) & = \kappa u_* z/[1+\Phi(z)] & z \in [z_0,z_s], \label{MOST1}\\
+%   K(z) & = f(u_*,z) \ | \ d^2f/dz^2 < 0 & z \in (z_s,H], \label{MOST2}
+%\end{align}
+%\end{subequations}
+%\end{linenomath*}
 %
-where $z_s$ is the upper boundary of the constant-flux layer, $\Phi(z)$ is a stability correction function, $\kappa$ is the Von K\'arm\'an constant, and $u_* = \sqrt{K(du/dz)/\rho}$ is the so-called friction velocity.
-However, in the current settings, we are not able to satisfy Eqs. \ref{MOST1} and \ref{MOST2} directly, since the specification of $K$ has to be done a-priori, and $u_*$ depends on the solution. 
-This is the main weakness of linear approaches. The only way to enforce Eqs. \ref{MOST1} and \ref{MOST2} would be to apply a procedure in which $K(z)$ is iteratively updated to match the MO similarity relations.
-Based on recent direct (DNS) and large-eddy simulation (LES) results (not shown) we make the additional assumption that $h$ is located in the neighborhood of the first zero of the $u$ velocity profile, well above $z_j$ but within the dynamic and thermal boundary layers ($h$ would be at the lower boundary of the return flow).
-Knowledge of $K(z_0),dK(z_0)/dz$ and $h$ allows to univocally define $K(z)= A(z + \epsilon)(z-\zeta)^2$ one can therefore specify the surface value and its derivative $K(0), dK(0)/dz$ and 
-Under such restrictive (but realistic) assumption it is possible to show that the $H$ parameter in 
+where $z_s$ is the upper boundary of the constant-flux layer, $\kappa$ is the Von K\'arm\'an constant, and $u_* = \kappa z (du/dz)|_{z_0}$, is the so-called friction velocity.
+Based on recent direct (DNS) and large-eddy simulation (LES) results (not shown) we make the additional assumption that $h$ is located in the neighborhood of the first zero of the $u$ velocity profile, well above $z_j$ but within the dynamic and thermal boundary layers (under such constraint $h$ identifies the lower boundary of the return flow). 
+We will show hereafter that the solution is poorly sensitive on the exact value of $h$, as long as the resulting domain height $H<\zeta$ is large enough to accomodate the dynamic and thermal boundary layers.
+Knowledge of $dK/dz|_{z=z_0}$ and $h$ allows to univocally specify $K(z)= Az(z-\zeta)^2$. A possible alternative would be to specify $dK/dz|_{z=z_0}$ and $\max{(K)}$. 
+The size of the integration interval should be chosen as large as possible, under the constraint $H<\zeta$. Throughout the study we will set $H = \zeta-\zeta/100$, which allows to fully represent the dynamic and thermal boundary layers over a broad range of $z_0$ values.
+Note that in general it is not possible to satisfy Eqs. \ref{MOST1} directly, since the specification of $K$ has to be done a-priori, and $u_*$ depends on the solution. 
+The chosen normalization allows to overcome this limitation, and highlights the linear dependence of the length scales of the flow on $u_*$ ($A \propto u_* \propto L)$.
+One could therefore first solve for $\overline{u}$ and $\overline{b}$, and then re-dimensionalize the problem, imposing $A=\kappa u_* / \zeta^2$ thus resulting in $K(z)=\kappa u_* z$, in agreement with Eq. \ref{MOST1}.
 
-Despite the restrictive form of the model parameter, which might limit the applicability of the solution in certain contexts, the model 
-
-
-
-
-
+Despite the restrictive form of the model parameter $K(z)$, the formulation allows for exact integration of Eqs. \ref{eqn1u} and \ref{eqn1b}, thus providing a useful reference to test approximate solutions such as the WKB \citep{grisogono2001katabatic} and the dependence of the flow on the additional model parameter $z_0$. Further, the formulation can be used to validate numerical solutions of the Prandtl model equations (Eqs. \ref{eqn1u} and \ref{eqn1b}).
 
 
 \section{Examples}
 %
 \begin{figure}
    \begin{center}
-      \includegraphics[width= 70.0mm]{./u-b_log}
-      \caption{Comparison of the new analytic solution (A1) against the constant-$K$ (A2), the WKB (A3) and a numerical $1D$ solution (N1). Analytic profiles of normalized velocity $(u^+)$ are denoted with dot-dashed lines whereas analytic profiles of normalized buoyancy $(b^+)$ are denoted by dashed lines. Here $K^+ = A^+ \cdot (z^++\epsilon^+)(z^+-H^+-\epsilon^+)^2$ where $A^+=6.75 e-4$, $\epsilon^+ =1.5 \times 10^{-3}$ and $H^+ = 10$. A corresponding dimensional profile is characterized by $\max{(K)} = 0.1 \ \mathrm{m^2s^{-1}}$ and $K(z=0) = 10^{-5} \ \mathrm{m^2s^{-1}}$, in agreement with common atmospheric values.}
+      \includegraphics[width= 70.0mm]{./comparison_normalized_analytic_solutions_z0=1e-05}
+      \caption{Comparison of the new analytic solution (A1) against the constant-$K$ (A2), the WKB (A3) and a numerical $1D$ solution (N1). Analytic profiles of normalized velocity $(\overline{u})$ are denoted with dot-dashed lines whereas analytic profiles of normalized buoyancy $(\overline{b})$ are denoted by dashed lines. Here $\overline{z}_0 = 0.00001$ and $\overline{\zeta} = 0.1$. A corresponding dimensional profile is characterized by $\max{(K)} = 0.1 \ \mathrm{m^2s^{-1}}$ and $K(z=0) = 10^{-5} \ \mathrm{m^2s^{-1}}$, in agreement with common atmospheric values.}
       \label{fig1}
    \end{center}
 \end{figure}
@@ -333,11 +339,11 @@ Despite the restrictive form of the model parameter, which might limit the appli
     \end{center}
 \end{figure}
 %
-In Fig. \ref{fig1} we compare the new analytic solution (A1 in the following) against the constant-$K$ (A2), the WKB (A3) and a numerical solution (N1).
+In Fig. \ref{fig1} we compare the new analytic solution (A1 in the following) against the constant-$K$ (A2), the WKB (A3) and a numerical solution (N1), for a chosen $z_0,\zeta$. $\zeta$ is specified so that $h$ is located at the first zero of the $u(z)$ profile. 
 The constant-$K$ value is fixed to $K^+_{\mathrm{A2}} = \max(K_{\mathrm{A1}}^+)/3$. 
 Profiles for N1 are derived as direct numerical solution the system of ODEs defined by Eqs. \ref{eqn1u_norm} and \ref{eqn1b_norm}, where a second-order accurate centered finite difference discretization is adopted with over $40,000$ collocation points and stretching the grid via a quadratic coordinate transform (at such resolution profiles are invariant to further refinements down to machine precision).
 The excellent match between A1 and N1 certifies the quality of results for both methods. 
-In comparison to its analytical counterparts, A1 shows a remarkably strong inversion in the near surface regions $(z^+ <1)$, suggesting overdiffusive behaviour of both A2 and A3, which are incapable of providing such strong buoyancy gradients. 
+A1 shows a remarkably strong inversion in the near surface regions $(z^+ <1)$, when compared against its analytical counterparts, suggesting an overdiffusive behaviour of both A2 and A3. 
 For instance, normalized surface buoyancy gradients of simulation A1 are over an order of magnitude larger than those of A2 $( (db/dz)^+_\mathrm{A1}/(db/dz)^+_\mathrm{A2} = \mathcal{O}(10)$ as $z^+ \rightarrow 0$).
 Despite this, we observe a relatively good match between $u^+_\mathrm{A1}$ and $u^+_\mathrm{A3}$ in the interval $z^+ \in [0,1]$, which confirms the enhanced dissipative properties of the A3 solution, when compared against the constant-$K$ approach. 
 To understand the importance of a decreasing eddy viscosity in the near surface regions, it is worth noting that $(du/dz)^+_\mathrm{A1}/(du/dz)^+_\mathrm{A2} = \mathcal{O}(10)$, whereas $(du/dz)^+_\mathrm{A1}/(du/dz)^+_\mathrm{A3}= \mathcal{O}(1)$ as $z^+ \rightarrow 0$.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  25 OCT 2015 15:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  2 NOV 2015 14:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -550,23 +550,14 @@ y/m/n/10 ^^@ \OML/cmm/m/it/10 y\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;
  []
 
 [4]
-Package epstopdf Info: Source file: <./u-b_log.eps>
-(epstopdf)                    date: 2015-07-06 16:00:53
-(epstopdf)                    size: 2468227 bytes
-(epstopdf)             Output file: <./u-b_log-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-08-12 09:48:58
-(epstopdf)                    size: 466734 bytes
-(epstopdf)             Command: <repstopdf --outfile=./u-b_log-eps-converted-to
-.pdf ./u-b_log.eps>
-(epstopdf)             \includegraphics on input line 322.
-Package epstopdf Info: Output file is already uptodate.
- <./u-b_log-eps-converted-to.pdf, id=187, 489.83pt x 455.7025pt>
-File: ./u-b_log-eps-converted-to.pdf Graphic file (type pdf)
-
-<use ./u-b_log-eps-converted-to.pdf>
-Package pdftex.def Info: ./u-b_log-eps-converted-to.pdf used on input line 322.
-
-(pdftex.def)             Requested size: 199.16928pt x 185.2886pt.
+<./comparison_normalized_analytic_solutions_z0=1e-05.png, id=195, 489.38835pt x
+ 455.301pt>
+File: ./comparison_normalized_analytic_solutions_z0=1e-05.png Graphic file (typ
+e png)
+ <use ./comparison_normalized_analytic_solutions_z0=1e-05.png>
+Package pdftex.def Info: ./comparison_normalized_analytic_solutions_z0=1e-05.pn
+g used on input line 328.
+(pdftex.def)             Requested size: 199.16928pt x 185.29904pt.
 Package epstopdf Info: Source file: <./u-b_log_various_K.eps>
 (epstopdf)                    date: 2015-07-06 16:09:14
 (epstopdf)                    size: 1640680 bytes
@@ -575,15 +566,15 @@ Package epstopdf Info: Source file: <./u-b_log_various_K.eps>
 (epstopdf)                    size: 326557 bytes
 (epstopdf)             Command: <repstopdf --outfile=./u-b_log_various_K-eps-co
 nverted-to.pdf ./u-b_log_various_K.eps>
-(epstopdf)             \includegraphics on input line 330.
+(epstopdf)             \includegraphics on input line 336.
 Package epstopdf Info: Output file is already uptodate.
 
-<./u-b_log_various_K-eps-converted-to.pdf, id=188, 489.83pt x 455.7025pt>
+<./u-b_log_various_K-eps-converted-to.pdf, id=196, 489.83pt x 455.7025pt>
 File: ./u-b_log_various_K-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./u-b_log_various_K-eps-converted-to.pdf>
 Package pdftex.def Info: ./u-b_log_various_K-eps-converted-to.pdf used on input
- line 330.
+ line 336.
 (pdftex.def)             Requested size: 199.16928pt x 185.2886pt.
 Package epstopdf Info: Source file: <./u_dim_alpha_N_b.eps>
 (epstopdf)                    date: 2015-08-16 16:59:29
@@ -593,18 +584,18 @@ Package epstopdf Info: Source file: <./u_dim_alpha_N_b.eps>
 (epstopdf)                    size: 742207 bytes
 (epstopdf)             Command: <repstopdf --outfile=./u_dim_alpha_N_b-eps-conv
 erted-to.pdf ./u_dim_alpha_N_b.eps>
-(epstopdf)             \includegraphics on input line 354.
+(epstopdf)             \includegraphics on input line 360.
 Package epstopdf Info: Output file is already uptodate.
 
-<./u_dim_alpha_N_b-eps-converted-to.pdf, id=195, 489.83pt x 455.7025pt>
+<./u_dim_alpha_N_b-eps-converted-to.pdf, id=203, 489.83pt x 455.7025pt>
 File: ./u_dim_alpha_N_b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./u_dim_alpha_N_b-eps-converted-to.pdf>
 Package pdftex.def Info: ./u_dim_alpha_N_b-eps-converted-to.pdf used on input l
-ine 354.
+ine 360.
 (pdftex.def)             Requested size: 199.16928pt x 185.2886pt.
- [5] [6 <./u-b_log-eps-converted-to.pdf> <./u-b_log_various_K-eps-converted-to.
-pdf>]
+ [5] [6 <./comparison_normalized_analytic_solutions_z0=1e-05.png (PNG copy)> <.
+/u-b_log_various_K-eps-converted-to.pdf>]
 Underfull \vbox (badness 3503) has occurred while \output is active []
 
  [7]
@@ -667,6 +658,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--108
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
 Underfull \hbox (badness 1721) in paragraph at lines 139--143
 []\OT1/cmr/m/n/10 Shapiro A, Fe-dorovich E (2007) Kata-batic flow along a dif-f
 er-en-tially
@@ -679,9 +673,6 @@ ww . journals . cambridge . org /
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [10]
 Underfull \hbox (badness 4872) in paragraph at lines 153--156
 []\OT1/cmr/m/n/10 Stull RB (1988) An In-tro-duc-tion to Bound-ary Layer Me-te-o
 -rol-ogy,
@@ -700,28 +691,28 @@ OLOGY{&}ots =
  []
 
 )
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 574.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 580.
  [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 574.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 580.
  (./paper_BLM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 574.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 574.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 580.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 580.
 Package rerunfilecheck Info: File `paper_BLM.out' has not changed.
 (rerunfilecheck)             Checksum: 1BBBDB798109A4EA43C72F1368F5966E;304.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 574.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 580.
  ) 
 Here is how much of TeX's memory you used:
  8620 strings out of 493315
- 124215 string characters out of 6137904
- 232119 words of memory out of 5000000
+ 124357 string characters out of 6137904
+ 234062 words of memory out of 5000000
  11862 multiletter control sequences out of 15000+600000
  13237 words of font info for 50 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 30i,12n,53p,761b,482s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,12n,53p,758b,480s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pf
 b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
@@ -744,10 +735,10 @@ dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2013/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on paper_BLM.pdf (11 pages, 1814348 bytes).
+Output written on paper_BLM.pdf (11 pages, 1701428 bytes).
 PDF statistics:
- 429 PDF objects out of 1000 (max. 8388607)
- 374 compressed objects within 4 object streams
+ 415 PDF objects out of 1000 (max. 8388607)
+ 364 compressed objects within 4 object streams
  67 named destinations out of 1000 (max. 500000)
  64 words of extra memory for PDF output out of 10000 (max. 10000000)
 
