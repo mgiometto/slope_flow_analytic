@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper_BLM.aux
+The style file: spbasic_nourl.bst
+Database file #1: /Users/mg/Phd/papers/bib_files/library.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--missing publisher in Bender1979
+You've used 46 entries,
+            3202 wiz_defined-function locations,
+            1027 strings with 13254 characters,
+and the built_in function-call counts, 62562 in all, are:
+= -- 7594
+> -- 1038
+< -- 37
++ -- 605
+- -- 321
+* -- 4082
+:= -- 6806
+add.period$ -- 45
+call.type$ -- 46
+change.case$ -- 338
+chr.to.int$ -- 45
+cite$ -- 47
+duplicate$ -- 6602
+empty$ -- 4366
+format.name$ -- 459
+if$ -- 12942
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 422
+newline$ -- 148
+num.names$ -- 184
+pop$ -- 1748
+preamble$ -- 1
+purify$ -- 291
+quote$ -- 0
+skip$ -- 2909
+stack$ -- 0
+substring$ -- 6005
+swap$ -- 4153
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 402
+warning$ -- 1
+while$ -- 405
+width$ -- 0
+write$ -- 514
+(There was 1 warning)
